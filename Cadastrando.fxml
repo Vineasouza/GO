@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="cadastrando" prefHeight="550.0" prefWidth="600.0" styleClass="backgroundCadastar" stylesheets="@CodigoCSS/CSS1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CadastrandoController1">
+   <children>
+      <Label layoutX="192.0" layoutY="39.0" opacity="0.93" text="Cadastrando" textFill="#eeec6e">
+         <font>
+            <Font name="Impact" size="41.0" />
+         </font>
+         <effect>
+            <Lighting specularConstant="0.28" specularExponent="20.47" surfaceScale="1.96">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="170.58" elevation="66.99" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Button fx:id="botVoltar" layoutX="445.0" layoutY="497.0" mnemonicParsing="false" onAction="#handleBotVoltar" text="Voltar" />
+      <Button fx:id="botSair" layoutX="514.0" layoutY="497.0" mnemonicParsing="false" onAction="#handleBotSair" prefHeight="25.0" prefWidth="48.0" text="Sair" />
+      <Button fx:id="confirma" layoutX="266.0" layoutY="453.0" mnemonicParsing="false" onAction="#handleBotConfirma" text="Confirmar" />
+      <TextField fx:id="promo" layoutX="379.0" layoutY="138.0" prefHeight="25.0" prefWidth="151.0" promptText="Ex: X-Salada, porção de ..." />
+      <Label layoutX="117.0" layoutY="110.0" prefHeight="17.0" prefWidth="54.0" text="Produtos" />
+      <Label layoutX="27.0" layoutY="142.0" text="Nome" />
+      <Label layoutX="14.0" layoutY="174.0" text="Descrição" />
+      <TextField fx:id="descriProd" layoutX="68.0" layoutY="170.0" prefHeight="25.0" prefWidth="151.0" promptText="Ex: pão, alface, hamburguer...." />
+      <TextField fx:id="precoProd" layoutX="69.0" layoutY="201.0" prefHeight="25.0" prefWidth="151.0" promptText="Ex: 19.50" />
+      <Label layoutX="25.0" layoutY="205.0" text="Preço" />
+      <Button fx:id="addProd" layoutX="110.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleBotAddProdutos" text="Adicionar" />
+      <Label layoutX="427.0" layoutY="110.0" prefHeight="17.0" prefWidth="54.0" text="Promoção" />
+      <TextField fx:id="produto" layoutX="68.0" layoutY="138.0" prefHeight="25.0" prefWidth="151.0" promptText="Ex: X-Salada, porção de ..." />
+      <TextField fx:id="descriPromo" layoutX="379.0" layoutY="170.0" prefHeight="25.0" prefWidth="151.0" promptText="Ex: pão, alface, hamburguer...." />
+      <TextField fx:id="precoPromo" layoutX="379.0" layoutY="201.0" prefHeight="25.0" prefWidth="151.0" promptText="Ex: 19.50" />
+      <Button fx:id="addPromo" layoutX="421.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleBotAddPromo" text="Adicionar" />
+      <Label layoutX="26.0" layoutY="290.0" prefHeight="17.0" prefWidth="188.0" text="Número de produtos cadastrados :" />
+      <Label fx:id="numProdAdd" layoutX="217.0" layoutY="290.0" text="0" />
+      <Label layoutX="355.0" layoutY="290.0" prefHeight="17.0" prefWidth="198.0" text="Número de promoção cadastrados :" />
+      <Label fx:id="numPromodAdd" layoutX="548.0" layoutY="290.0" text="0" />
+      <Label layoutX="335.0" layoutY="142.0" text="Nome" />
+      <Label layoutX="316.0" layoutY="174.0" text="Descrição" />
+      <Label layoutX="337.0" layoutY="205.0" text="Preço" />
+   </children>
+</AnchorPane>

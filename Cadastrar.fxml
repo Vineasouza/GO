@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="cadastrar" prefHeight="550.0" prefWidth="600.0" styleClass="backgroundCadastar" stylesheets="@CodigoCSS/CSS1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CadastrarController">
+   <children>
+      <Label layoutX="221.0" layoutY="64.0" opacity="0.93" text="Cadastrar" textFill="#eeec6e">
+         <font>
+            <Font name="Impact" size="41.0" />
+         </font>
+         <effect>
+            <Lighting specularConstant="0.28" specularExponent="20.47" surfaceScale="1.96">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="170.58" elevation="66.99" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <TextField fx:id="nomEsb" layoutX="231.0" layoutY="152.0" promptText="Ex: Burger&quot;House" />
+      <TextField fx:id="end" layoutX="231.0" layoutY="190.0" promptText="Ex: Rua Santos Dummont" />
+      <TextField fx:id="cont" layoutX="230.0" layoutY="223.0" promptText="Ex: (43)99698142" />
+      <TextField fx:id="cnpj" layoutX="231.0" layoutY="263.0" />
+      <Label layoutX="30.0" layoutY="155.0" prefHeight="18.0" prefWidth="176.0" text="Nome do Estabelecimento" textFill="#ffff2e">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="194.0" prefHeight="18.0" prefWidth="62.0" text="Endereço" textFill="#ffff2e">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="227.0" prefHeight="18.0" prefWidth="62.0" text=" Contato" textFill="#ffff2e">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="267.0" prefHeight="18.0" prefWidth="41.0" text="CNPJ" textFill="#ffff2e">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="acordo" layoutX="187.0" layoutY="421.0" mnemonicParsing="false" onAction="#checkBox" text="Aceita o termos de uso do Aplicativo GO" textFill="#eeec6e" />
+      <Button fx:id="botVoltar" layoutX="445.0" layoutY="497.0" mnemonicParsing="false" onAction="#handleBotVoltar" text="Voltar" />
+      <Button fx:id="botSair" layoutX="514.0" layoutY="497.0" mnemonicParsing="false" onAction="#handleBotSair" prefHeight="25.0" prefWidth="48.0" text="Sair" />
+      <Button fx:id="confirma" layoutX="266.0" layoutY="453.0" mnemonicParsing="false" onAction="#handleBotConfirma" text="Confirmar" />
+      <Label layoutX="179.0" layoutY="303.0" prefHeight="18.0" prefWidth="251.0" text="Possui algum tipo de entrerimento ?" textFill="#ffff2e">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="231.0" layoutY="330.0" mnemonicParsing="false" text="SIM" />
+      <CheckBox layoutX="313.0" layoutY="330.0" mnemonicParsing="false" text="Não" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/04/2019, 13:14:52
+    Author     : arthu
+*/
+
+
+.bottomInicio{
+    -fx-background-color:#DA70D6;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-background-insets: 3, 80;
+    -fx-background-radius: 6, 5;
+    -fx-border-color: blueviolet;
+    -fx-border-style: solid;
+    -fx-border-width: 2.5px;
+    -fx-border-radius: 6,5;
+}
+
+.background{ 
+    -fx-background-image: url("fundoTeste.jpg");
+    -fx-background-size: 100%;
+}
+
+.backgroundConsulta{
+     -fx-background-image: url("fundo.jpg");
+     -fx-background-size: 140%;
+}
+
+
+// BOTÃO USADO NOS + DA JANELA CONSULTA
+.bottomJanConsultaMais{
+    -fx-background-color:#7B68EE;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill:WHITE;
+    
+}
+
+//FRAMES ONDE ESTARÃO UMA BREVE INTRODUÇÃO DOS ESTABELECIMENTOS
+.frameOne{
+    -fx-background-color: #9400D3;
+    
+}
+
+.frameTwo{
+    -fx-background-color: #800080;
+    
+}
+
+.frameThree{
+    -fx-background-color: #BA55D3;
+    
+}
+
+.frameFour{
+    -fx-background-color: #6A5ACD;
+    
+}
+
+.backgroundCadastar{
+    -fx-background-color: linear-gradient(to right,rgb(231, 76, 60),rgb(217, 30, 24));
+    
+    
+}
+
+
+.buttonCadastrar{
+    -fx-border-style: outset;
+    -fx-border-width: 2px;
+    -fx-border-color: rgba(207, 0, 15, 1);
+    -fx-background-color: rgba(236, 100, 75, 1);
+}
+
+

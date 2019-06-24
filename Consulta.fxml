@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" styleClass="backgroundConsulta" stylesheets="@CodigoCSS/CSS1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ConsultaController">
+   <children>
+      <Pane layoutX="75.0" layoutY="31.0" prefHeight="100.0" prefWidth="200.0" styleClass="frameOne" stylesheets="@CodigoCSS/CSS1.css" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="15.0">
+         <children>
+            <Button fx:id="botFrame1" layoutX="480.0" layoutY="36.0" mnemonicParsing="false" onAction="#handleBotFrame1" styleClass="bottomJanConsultaMais" text="+">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="nomeEst1" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="108.0" text="Nome do estabelicomento" />
+            <Label fx:id="endEst1" layoutX="14.0" layoutY="36.0" text="Endereço" />
+            <ImageView fitHeight="75.0" fitWidth="151.0" layoutX="311.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="contEst1" layoutX="14.0" layoutY="58.0" text="Contato" />
+         </children>
+      </Pane>
+      <Pane layoutX="151.0" layoutY="128.0" prefHeight="100.0" prefWidth="200.0" styleClass="frameTwo" stylesheets="@CodigoCSS/CSS1.css" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="130.0">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="151.0" layoutX="308.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="nomeEst2" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="108.0" text="Nome do estabelicomento" />
+            <Label fx:id="endEst2" layoutX="14.0" layoutY="35.0" text="Endereço" />
+            <Label fx:id="contEst2" layoutX="14.0" layoutY="57.0" text="Contato" />
+            <Button fx:id="botFrame2" layoutX="479.0" layoutY="33.0" mnemonicParsing="false" onAction="#handleBotFrame2" styleClass="bottomJanConsultaMais" text="+">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="131.0" layoutY="200.0" prefHeight="100.0" prefWidth="200.0" styleClass="frameThree" stylesheets="@CodigoCSS/CSS1.css" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="245.0">
+         <children>
+            <Button fx:id="botFrame3" layoutX="477.0" layoutY="35.0" mnemonicParsing="false" onAction="#handleBotFrame3" styleClass="bottomJanConsultaMais" text="+" textFill="#fcfafa">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="75.0" fitWidth="151.0" layoutX="320.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="endEst3" layoutX="14.0" layoutY="41.0" text="Endereço" />
+            <Label fx:id="nomeEst3" layoutX="14.0" layoutY="20.0" prefHeight="17.0" prefWidth="108.0" text="Nome do estabelicomento" />
+            <Label fx:id="contEst3" layoutX="14.0" layoutY="63.0" text="Contato" />
+         </children>
+      </Pane>
+      <Pane layoutX="25.0" layoutY="360.0" prefHeight="100.0" prefWidth="200.0" styleClass="frameFour" stylesheets="@CodigoCSS/CSS1.css" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="360.0">
+         <children>
+            <Button fx:id="botFrame4" layoutX="476.0" layoutY="35.0" mnemonicParsing="false" onAction="#handleBotFrame4" styleClass="bottomJanConsultaMais" text="+">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="75.0" fitWidth="151.0" layoutX="319.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="contEst4" layoutX="14.0" layoutY="63.0" text="Contato" />
+            <Label fx:id="nomeEst4" layoutX="14.0" layoutY="20.0" prefHeight="17.0" prefWidth="108.0" text="Nome do estabelicomento" />
+            <Label fx:id="endEst4" layoutX="14.0" layoutY="41.0" text="Endereço" />
+         </children>
+      </Pane>
+      <Button fx:id="botVoltar" layoutX="443.0" layoutY="485.0" minHeight="0.0" mnemonicParsing="false" onAction="#handleBotVoltar" prefHeight="30.0" prefWidth="50.0" stylesheets="@CodigoCSS/CSS1.css" text="Voltar" />
+      <Button fx:id="botSair" layoutX="510.0" layoutY="485.0" mnemonicParsing="false" onAction="#handleBotSair" prefHeight="30.0" prefWidth="50.0" text="Sair" />
+   </children>
+</AnchorPane>

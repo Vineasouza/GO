@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" styleClass="background" stylesheets="@CodigoCSS/CSS1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <Button fx:id="botConsultar" layoutX="287.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButConsultar" prefHeight="50.0" prefWidth="100.0" styleClass="bottomInicio" stylesheets="@CodigoCSS/CSS1.css" text="Consultar" />
+      <Button fx:id="botCadastrar" layoutX="450.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleBotCadastrar" prefHeight="50.0" prefWidth="100.0" styleClass="bottomInicio" stylesheets="@CodigoCSS/CSS1.css" text="Cadastrar" />
+      <Button fx:id="botSair" layoutX="534.0" layoutY="511.0" mnemonicParsing="false" onAction="#handleButSair" prefHeight="30.0" prefWidth="60.0" text="SAIR" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+   </children>
+</AnchorPane>

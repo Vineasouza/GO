@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorProd" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" styleClass="backgroundConsulta" stylesheets="@CodigoCSS/CSS1.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProdutosController3">
+   <children>
+      <Button fx:id="botVoltar" layoutX="192.0" layoutY="462.0" minHeight="0.0" mnemonicParsing="false" onAction="#handleBotVoltar" prefHeight="30.0" prefWidth="90.0" stylesheets="@CodigoCSS/CSS1.css" text="Voltar" />
+      <Button fx:id="botSair" layoutX="337.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleBotSair" prefHeight="30.0" prefWidth="90.0" text="Sair" />
+      <Label layoutX="265.0" layoutY="45.0" prefHeight="17.0" prefWidth="90.0" text="Habibs" textFill="#c3da40" />
+      <TableView layoutX="47.0" layoutY="99.0" prefHeight="300.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="95.0" text="Nome" />
+          <TableColumn prefWidth="104.0" text="Preço" />
+        </columns>
+      </TableView>
+      <TableView layoutX="375.0" layoutY="99.0" prefHeight="300.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="94.0" text="Nome" />
+          <TableColumn prefWidth="105.0" text="Preço" />
+        </columns>
+      </TableView>
+      <Label layoutX="105.0" layoutY="62.0" text="Comidas" textFill="#eed44e">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="437.0" layoutY="62.0" text="Bebidas" textFill="#eeee70">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
